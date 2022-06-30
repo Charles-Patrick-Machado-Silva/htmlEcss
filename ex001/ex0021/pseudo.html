@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h1{
+            color: cornsilk;
+        }
+        a{
+        color: rgb(119, 86, 61);
+         text-decoration: none;   
+         font-weight: bolder;
+        }
+        a:visited{
+            color: gray;
+        }
+        a:hover{
+            color: rgb(42, 71, 71);
+            text-decoration: underline;
+        }
+        a:active{
+            color: rgb(46, 143, 46);
+            background-color: rgb(65, 47, 47);
+        }
+        a::before{
+        content: " link{ ";
+        color: blue;
+        }
+        a::after{
+            content: " }link";
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Persolizando Links</h1>
+    <ol type="I">
+     <li><a href="https://photos.google.com/?pageId=none" target="_blank">Minhas fotos</a></li>
+     <li><a href="https://www.youtube.com/watch?v=1fueZCTYkpA&t=1733s" target="_blank" id="p">O lo-fi</a></li>
+     <li><a href="https://www.cursoemvideo.com" target="_blank">Site curso em video</a></li>
+    </ol>
+</body>
+</html>

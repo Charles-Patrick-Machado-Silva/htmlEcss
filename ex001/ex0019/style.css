@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body{
+    background-color: burlywood;
+    font-family: cursive;
+}
+
+main{
+    background-color: #59b2b5;
+    width: 700px;
+    margin: auto;
+    border-radius: 10px;
+}
+h1{
+    text-align: left;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ h1#PPPPP{
+    text-align: center;
+    text-shadow: 2px 1px 1px rgb(122, 7, 7);
+ }
+ h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+ }
+
+ .pop{
+    background-color: rgb(113, 222, 225);
+   
+}
+
+.io{
+    text-shadow: 1px 1px 2px rgb(223, 61, 61);
+    background-color: rgb(42, 62, 99); 
+}
+
+.op{
+    background-color: #c38b96;
+    color: #076063;
+}
+.pl{ 
+    background-color: #076063;text-decoration: underline; 
+}

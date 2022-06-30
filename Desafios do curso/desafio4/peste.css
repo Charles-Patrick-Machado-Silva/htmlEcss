@@ -1,0 +1,140 @@
+@charset "UTF_8";
+@font-face {
+    font-family: op;
+    src: url(idroid.otf) format("opentype");
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 139, 139, 0.467);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+
+header{
+    background-image:linear-gradient(to bottom, #04ADBF,#953c64);
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+.i{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+
+#j{
+    color: aliceblue;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.57);
+}
+h2{
+    font-family: 'op', Arial, Helvetica, sans-serif ;
+    color: darkgreen;
+    background-image: linear-gradient(to left, rgba(0, 100, 0, 0.201) ,rgba(0, 128, 0, 0.456));
+    border-radius: 10px 0px 0px 10px;
+    padding: 3px;
+}
+nav{
+    text-align: left;
+    padding: 1px;
+    margin-left: 1px
+}
+.opasa{
+    text-decoration: none;
+    color: beige;
+    margin-left: 30px;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.26);
+    border-radius: 7px 5px 0px 7px; 
+    padding: 0px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.opasa:hover{
+    color: chartreuse;
+}
+
+div.video{
+    position: relative;
+    background-color: rgba(119, 206, 119, 0.362);
+    height: 0px;
+    margin: -10px -10px 10px -10px;
+    padding: 40%;
+  }
+div.video>iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.imagem{
+    min-width: 400px;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px 20px;
+}
+.io{
+    min-width: 400px;
+    max-width: 900px;
+    margin: 0px 0px 0px 100px;
+}
+
+#ig{
+    min-width: 400px;
+    max-width: 900px;
+    margin:0px 0px 0px 0px 20px;
+    background-color: #1288009d;
+}
+main{
+    min-width: 400px;
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    padding: 12px;
+    border-radius: 0px 0px 10px 10px;
+}
+div{
+    background-color: rgba(149, 219, 147, 0.556);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    width: auto;
+    border-radius: 10px;
+    margin: 0px;
+}
+
+div#ops{
+    background-color: #63b1579d;
+    width: left 90px; 
+    border-radius: 10px;
+    margin: 0px;
+    border: 0px;
+}
+.pq{
+    padding: 10px;
+}
+.l{
+    background-color: #b2c48b89;
+    border-radius: 10px;
+    margin: 0px;
+}
+
+ul{
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+    margin: 0%;
+}
+
+footer{
+    background-color: rgba(30, 199, 30, 0.386);
+    padding: 5px;
+    font-weight: bolder;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    text-decoration: underline;
+}
