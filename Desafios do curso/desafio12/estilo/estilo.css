@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:wght@100&display=swap');
+
+:root{
+--fonte1: 'Indie Flower', cursive;
+--fonte2: 'Roboto', sans-serif;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.733);
+    text-align: center;
+    color: white;
+}
+
+header > h1{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 50px;
+    font-weight: 900;
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 900;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(205, 205, 36);
+}
+
+#audio{
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 300px;
+    
+}
+
+section{
+    padding-left: 50px;
+    padding-top: 50px;
+    line-height: 2em;
+    font-family: var(--fonte1);
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+section.normal{
+    background-color: white;
+}
+
+section>p{
+    padding-bottom: 50px;
+}
+
+section.imagem{
+    background-color: rgb(170, 102, 0);
+    padding-bottom: 50px;
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.24);
+}
+
+.imagem>p{
+    color: white;
+    background-color: rgba(100, 100, 100, 0.289);
+    width: 300px;
+    padding: 10px;
+}
+
+#img1{
+  /*  background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;*/
+
+    background: url(../imagens/background001.jpg) right center fixed ;
+    background-size: cover;
+}
+
+#img2{
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer{
+    background-color: rgba(48, 45, 45, 0.845);
+    color: white;
+    text-align: center;
+}
