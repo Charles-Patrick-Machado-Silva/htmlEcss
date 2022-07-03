@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        table{
+            width: 500px;
+
+            background-color: rgb(255, 255, 255);
+            border-collapse: collapse;
+            border: 1px solid rgba(0, 0, 0, 0.396);
+        }
+
+        caption{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 900;
+            font-size: 1.3em;
+            background-color: rgba(145, 145, 145, 0.341);
+            border-radius: 7px 7px 0px 0px;
+            border:1px solid rgba(0, 0, 0, 0.659);
+        }
+
+        thead{
+            background-color: #91919164;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color:#91919164 ;
+        }
+
+        td{
+            border: 1px solid rgba(0, 0, 0, 0.47);
+            text-align: center;
+            padding: 10px;
+        }
+
+        tbody > tr:nth-child(even){
+            background-color: rgba(146, 146, 146, 0.384);
+        }
+
+        tfoot{
+            background-color: rgba(255, 140, 0, 0.396);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>
+        Habitantes da região Sudeste
+    </h1>
+    <table>
+        <caption>
+            População do Sudeste do Brasil
+         </caption>
+         <thead>
+            <tr>
+                <th scope="col">Estados</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td> São Paulo</td>
+                <td clas="num">46 649 132</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td clas="num">21 411 923</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td clas="num">17 463 349</td>
+            </tr>
+            <tr>
+                <td>Espirito Santo</td>
+                <td clas="num">4 108 508</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitante</th>
+                <td>89 632 912</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim magnam iste voluptate, natus eum sapiente quam corrupti dolor, autem, explicabo quae eaque velit ipsa dolore? Eum laborum dolore veniam vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. A beatae alias quo dolorum culpa saepe placeat, fugit facere ad natus accusantium, eligendi, et aliquam assumenda voluptates molestias impedit quasi iusto? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit voluptas tempore. Omnis molestias odio in? Similique qui quas animi nihil eveniet obcaecati odio voluptatem? Ut obcaecati quae nulla doloribus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, natus perferendis fugit corporis magnam exercitationem dolore dolorem eius, vitae ex nesciunt voluptatibus voluptate maxime ipsam nihil nulla quos voluptatum odio!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim magnam iste voluptate, natus eum sapiente quam corrupti dolor, autem, explicabo quae eaque velit ipsa dolore? Eum laborum dolore veniam vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. A beatae alias quo dolorum culpa saepe placeat, fugit facere ad natus accusantium, eligendi, et aliquam assumenda voluptates molestias impedit quasi iusto? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit voluptas tempore. Omnis molestias odio in? Similique qui quas animi nihil eveniet obcaecati odio voluptatem? Ut obcaecati quae nulla doloribus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, natus perferendis fugit corporis magnam exercitationem dolore dolorem eius, vitae ex nesciunt voluptatibus voluptate maxime ipsam nihil nulla quos voluptatum odio!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim magnam iste voluptate, natus eum sapiente quam corrupti dolor, autem, explicabo quae eaque velit ipsa dolore? Eum laborum dolore veniam vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. A beatae alias quo dolorum culpa saepe placeat, fugit facere ad natus accusantium, eligendi, et aliquam assumenda voluptates molestias impedit quasi iusto? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit voluptas tempore. Omnis molestias odio in? Similique qui quas animi nihil eveniet obcaecati odio voluptatem? Ut obcaecati quae nulla doloribus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, natus perferendis fugit corporis magnam exercitationem dolore dolorem eius, vitae ex nesciunt voluptatibus voluptate maxime ipsam nihil nulla quos voluptatum odio!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim magnam iste voluptate, natus eum sapiente quam corrupti dolor, autem, explicabo quae eaque velit ipsa dolore? Eum laborum dolore veniam vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. A beatae alias quo dolorum culpa saepe placeat, fugit facere ad natus accusantium, eligendi, et aliquam assumenda voluptates molestias impedit quasi iusto? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit voluptas tempore. Omnis molestias odio in? Similique qui quas animi nihil eveniet obcaecati odio voluptatem? Ut obcaecati quae nulla doloribus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, natus perferendis fugit corporis magnam exercitationem dolore dolorem eius, vitae ex nesciunt voluptatibus voluptate maxime ipsam nihil nulla quos voluptatum odio!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim magnam iste voluptate, natus eum sapiente quam corrupti dolor, autem, explicabo quae eaque velit ipsa dolore? Eum laborum dolore veniam vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. A beatae alias quo dolorum culpa saepe placeat, fugit facere ad natus accusantium, eligendi, et aliquam assumenda voluptates molestias impedit quasi iusto? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit voluptas tempore. Omnis molestias odio in? Similique qui quas animi nihil eveniet obcaecati odio voluptatem? Ut obcaecati quae nulla doloribus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, natus perferendis fugit corporis magnam exercitationem dolore dolorem eius, vitae ex nesciunt voluptatibus voluptate maxime ipsam nihil nulla quos voluptatum odio!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim magnam iste voluptate, natus eum sapiente quam corrupti dolor, autem, explicabo quae eaque velit ipsa dolore? Eum laborum dolore veniam vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. A beatae alias quo dolorum culpa saepe placeat, fugit facere ad natus accusantium, eligendi, et aliquam assumenda voluptates molestias impedit quasi iusto? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit voluptas tempore. Omnis molestias odio in? Similique qui quas animi nihil eveniet obcaecati odio voluptatem? Ut obcaecati quae nulla doloribus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, natus perferendis fugit corporis magnam exercitationem dolore dolorem eius, vitae ex nesciunt voluptatibus voluptate maxime ipsam nihil nulla quos voluptatum odio!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim magnam iste voluptate, natus eum sapiente quam corrupti dolor, autem, explicabo quae eaque velit ipsa dolore? Eum laborum dolore veniam vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. A beatae alias quo dolorum culpa saepe placeat, fugit facere ad natus accusantium, eligendi, et aliquam assumenda voluptates molestias impedit quasi iusto? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit voluptas tempore. Omnis molestias odio in? Similique qui quas animi nihil eveniet obcaecati odio voluptatem? Ut obcaecati quae nulla doloribus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, natus perferendis fugit corporis magnam exercitationem dolore dolorem eius, vitae ex nesciunt voluptatibus voluptate maxime ipsam nihil nulla quos voluptatum odio!</p>
+
+</body>
+</html>

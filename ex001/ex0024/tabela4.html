@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        
+        table{
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 900;
+            border: 1px solid black;
+            border-radius: 5px 5px 0px 0px;
+            text-decoration: underline rgb(138, 16, 16);
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .p{
+            font-size: 1.1em;
+            font-weight: 900;
+            text-decoration: underline;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+            Filmes Favoritos
+        </caption>
+        <thead>
+            <th scope="col">
+             Grupo
+            </th>
+            <th scope="col">
+                Nomes
+            </th>
+            <th colspan="3" scope="colgroup">
+                Filmes
+            </th>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">
+                    Mulheres
+                </th>
+                <td>Aninha</td>
+                <td>Star Wars</td>
+                <td>Wall-e</td>
+                <td>Moana</td>
+            </tr>
+            <tr>
+                <td>Marcella</td>
+                <td>Fé</td>
+                <td>Sherk</td>
+                <td>Intocaveis</td>
+            </tr>
+            <tr>
+                <td>Fernanda</td>
+                <td>parasita</td>
+                <td>After</td>
+                <td>Toy Story</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">
+                    Homens
+                </th>
+                <td>Tobey</td>
+                <td>Miranha</td>
+                <td>Superman</td>
+                <td>Carros</td>
+            </tr>
+            <tr>
+                <td>Tomas</td>
+                <td>Panico</td>
+                <td>Exterminador</td>
+                <td>O Nevoeiro</td>
+            </tr>
+            <tr>
+                <td>Philipe</td>
+                <td>Mercury</td>
+                <td>A coisa</td>
+                <td>Bird Box</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="p">
+                <td class="p" colspan="4" scope="rowgroup">
+                    total
+                </td>
+                <td class="p">
+                    ****
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
